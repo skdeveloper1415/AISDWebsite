@@ -1,0 +1,75 @@
+.event-dropdown .p-dropdown .p-dropdown-label.p-placeholder {
+  color: #6c757d;
+  padding: 11px 15px !important;
+}
+.event-dropdown .p-dropdown{
+    background-color: #F5F6F7;
+
+}
+.custam-search .p-inputtext {
+  border-radius: 2.083vw;
+  padding-left: 1.108vw;
+  font-size: 14px;
+  background-color: #F5F6F7;
+ border-color: #e5e7eb; 
+}
+
+.custam-search.p-input-icon-right i {
+  margin-top: -0.4rem;
+}
+.custam-search.p-input-icon-right > i:last-of-type{
+  right: 16px;
+  color: #9CA1AB;
+}
+.checkbox-height .p-checkbox .p-checkbox-box {
+  height: 18px;
+  width: 18px;
+}
+.checkbox-height .p-checkbox{
+    height: 18px;
+    width: 18px;
+}
+.checkbox-height .p-checkbox .p-checkbox-box .p-checkbox-icon{
+    font-size: 10px;
+}
+.event-dropdown .p-inputtext{
+  padding-left: 16px;
+  color: #9CA1AB;
+  font-size: 14px;
+}
+.event-dropdown .p-dropdown-trigger{
+  padding-right: 16px;
+}
+.event-dropdown .p-dropdown .p-dropdown-trigger {
+  width: 1.8rem;
+  color: #9CA1AB;
+}
+
+.event-dropdown .p-dropdown:not(.p-disabled):hover {
+  border-color: #e5e7eb;
+}
+.academicsTabs { height: 100%; }
+.academicsTabs .react-tabs__tab-list { display: flex; align-items: center; height: 100%; }
+.academicsTabs .react-tabs__tab { cursor: pointer;border-radius: 99px 99px 99px 99px; background: white; min-width: 3.542vw; height: 100%; display: flex; justify-content: center; align-items: center; color: #4B586E; }
+.academicsTabs .react-tabs__tab:first-child { border-radius: 99px 99px 99px 99px; }
+.academicsTabs .react-tabs__tab:last-child { border-radius: 99px 99px 99px 99px; }
+.academicsTabs .react-tabs__tab.react-tabs__tab--selected { background: #152C4F; color: white; }
+
+.academics-img img
+{ border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.academics-img:after
+{
+    content: '';
+    background: url('/assets/website/circle-shadow.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: center;
+    height: 150px;
+    background-size: cover;
+    width: 130px;
+    top: 0;
+
+
+}

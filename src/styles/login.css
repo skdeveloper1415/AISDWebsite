@@ -1,0 +1,80 @@
+.p-password-input {
+  width: 100% !important;
+}
+
+.custom-editor .ql-toolbar .ql-formats {
+  margin-right: 0.5px !important;
+}
+.contentaddheight{
+  min-height: 50px !important;
+}
+/* .p-inputtext{
+  padding: 0rem 0.75rem;
+} */
+@media screen and(max-width:768px) {
+  .contentaduj{
+   width: 100% !important;
+   text-align: center !important;
+  }
+}
+.attachedFiles i {
+  margin-right: 8px;
+}
+
+.attachedFiles span {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.enrollimg{
+  background-image: url("/assets/images/enrollimg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed;
+  background-position: center; */
+}
+.topic-editor .ql-toolbar .ql-image,.topic-editor .ql-toolbar .ql-link,.topic-editor .ql-toolbar .ql-code-block {
+  display: none !important;
+}
+.p-calendar .p-inputtext {
+  background: #F5F6F7;
+  border-color: #BECDE3;
+}
+
+.custom_selectdropdown .p-dropdown .p-dropdown-trigger {
+    width: 3rem;
+}
+/* login page  */
+.custPassword .p-password .p-inputtext {
+  width: 100%;
+}
+
+.loginInputadmin .p-inputtext {
+  border: 1px solid #E6E3D9;
+  background: #F4F4F4;
+  padding: 0.50rem 0.75rem;
+}
+
+.loginInputadmin .p-inputtext:enabled:hover {
+  border-color: #972c06;
+}
+
+.loginInputadmin .p-inputtext:enabled:focus {
+  box-shadow: none;
+  border-color: #972c06;
+}
+
+.login-wrap-bg {
+  background-image: url(/assets/admin/login_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+/* .website_login-wrap-bg {
+  background-image: url(/assets/images/login_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+} */
+/* login page end  */
